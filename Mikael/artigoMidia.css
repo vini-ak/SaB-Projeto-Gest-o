@@ -1,0 +1,186 @@
+/* Big tablet 1200px (widths smaller that 1140 row) */
+@media only screen and (max-width: 1200px){
+    
+    .banner{
+        width: 100%;
+        padding: 0 2%;
+        top: 40%; 
+    }
+    
+    .row {padding: 0 2%;}
+    
+
+    header{
+        height: 60vh;
+        margin-bottom: 60px;
+        
+    }
+    
+}
+
+/* Small tablete - big tablet 767px até 1023 */
+@media only screen and (max-width: 1023px){
+   
+    body,html{font-size: 20px;}
+
+    .banner{
+        width: 100%;
+        padding: 0 2%;
+        top: 40%; 
+    }
+
+    #fotoEscritor{
+
+        height: 60px;
+        width: auto;
+    }
+
+    #autor{
+        font-size: 60%;
+        margin-bottom: 40px;
+    }
+
+    header{
+        height: 60vh;
+        margin-bottom: 60px;
+    }
+
+}/* Phones - Small tabletes 481 até 767px */
+@media only screen and (max-width: 767px){
+
+    header{
+        height: 30%;
+        width: auto;
+        margin-bottom: 40px;
+    }
+    
+    #subtitulo{
+        float: center;
+        font-size: 100%;
+        text-align: justify;
+    }
+    
+
+    body,html{
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .banner{
+        height: 50%;
+        width: auto;
+        padding: 0 2%;
+        top: 30%; 
+    }
+
+    #fotoEscritor{
+
+        margin-top: 20px;
+        height: 50px;
+        width: auto;
+    }
+
+    header{
+        height: 60vh;
+        margin-bottom: 20px;
+    }
+    
+    .conteudo{
+        margin-left: 18%;
+
+        text-align: justify;
+        font-weight: 400;
+        
+    }
+
+    h1,h2{
+    
+        margin-top: 0px;
+        margin-bottom: 20px ;
+        word-spacing: 0px;
+        letter-spacing: 1px;
+    
+    }
+       
+    h1{
+
+        font-size: 150%;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 300;
+    
+    }
+    
+    h2{
+        text-align: left;
+        padding: 0 7%;
+        font-size: 100%;
+        font-weight: 400;
+        font-weight: bold;
+    }
+
+}
+
+
+/* Small phones 0 até 480px */
+@media only screen and (max-width: 480px){
+   
+    body,html{font-size: 16px;}
+
+    .banner{
+        
+        width: 80%;
+        padding: 0 2%;
+        top: 40%; 
+        text-align: center;
+        align-items: center;
+    }
+    
+    header{
+        height: 30vh;
+        margin-bottom: 0px;
+    }
+
+    #subtitulo{
+        float: center;
+        font-size: 100%;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    #subtituloBanner{font-size: 75%;}
+
+    h1,h2{
+    
+        margin-top: 0px;
+        margin-bottom: 0px ;
+        word-spacing: 0px;
+        letter-spacing: 1px;
+    
+    }
+       
+    h1{
+        font-size: 85%;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 300;
+    
+    }
+    
+    h2{
+        text-align: left;
+        padding: 0 7%;
+        font-size: 75%;
+        font-weight: 400;
+        font-weight: bold;
+    }
+
+    #fraseEfeito{
+        font-size: 80%;
+    }
+
+    
+}
+
+
+

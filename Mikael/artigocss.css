@@ -1,0 +1,248 @@
+/* -------Conf. Gerais-------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/* -------Nav-------- */
+
+.topo {
+    width: 100%;
+    background-color: black;
+    height: 55px;
+}
+
+.nav {
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.justify-content-end {justify-content: flex-end!important;}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ol, ul {margin-top: 0;}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+a {text-decoration: none;}
+
+/* -------Botão Pesquisa-------- */
+
+input {
+    outline: none;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+input[type=search] {
+    background: #2E2B33 url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px#2E2B33;
+    width: 55px;
+    height: 115%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+input[type=search]:focus {
+    width: 130px;
+    background-color: #2E2B33;
+    border-color: #2E2B33;
+    -webkit-box-shadow: 0 0 5px #2E2B33;
+    -moz-box-shadow: 0 0 5px #2E2B33;
+    box-shadow: 0 0 5px #2E2B33;
+}
+
+input:-moz-placeholder {
+    color: #999;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+#demo-2 input[type=search] {
+    width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+}
+
+input[type=search]:hover {
+    background-color: #2E2B33;
+}
+
+input[type=search]:focus {
+    width: 130px;
+    padding-left: 32px;
+    color: #fff;
+    background-color: #2E2B33 0% 0% no-repeat padding-box;
+    ;
+    cursor: auto;
+}
+
+input:-moz-placeholder {
+    color: transparent;
+}
+
+input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+/* -------Header-------- */
+
+header{
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(assets/Agronegocio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 80px;
+    
+}
+
+.banner{
+
+    position: absolute;
+    width: 1140px;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h1,h2{
+    
+    margin-top: 0px;
+    margin-bottom: 20px ;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+
+}
+
+
+h1{
+    font-size: 180%;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+h2{
+    font-size: 140%;
+    font-weight: 400;
+}
+
+#subtituloBanner{
+
+    font-size: 120%;
+    color: #fff;
+    font-weight: 300;
+
+}
+/* -------Artigo-------- */
+
+#subtitulo{
+    float: left;
+    font-size: 1em;
+    text-align: justify;
+}
+
+
+#autor{
+    float: right;
+    text-align: center;
+    font-size: 80%;
+    margin-bottom: 40px;
+}
+
+#igor{
+    font-weight: bold;
+}
+
+#fotoEscritor{
+
+    border-radius: 50%;
+    height: 80px;
+    width: auto;
+}
+
+.conteudo{
+
+    width: 65%;
+    margin-left: 100px;
+    text-align: justify;
+    font-weight: 400;
+    
+}
+
+#fraseEfeito{
+
+    font-size: 180%;
+    font-style: italic;
+    color: #fff;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0px;
+    padding: 7% 25% 7% 10%;
+    background-color:#34495e;
+    
+}
+
+p{
+    margin-top: 20px;
+}
+
