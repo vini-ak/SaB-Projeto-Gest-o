@@ -1,0 +1,460 @@
+/* Reset */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #1e1d20;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* NAVBAR */
+.topo {
+  width: 100%;
+  background-color: black;
+  height: 55px;
+}
+
+.nav {
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ol,
+ul {
+  margin-top: 0;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav-item a {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------Botão Pesquisa-------- */
+
+input {
+  outline: none;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+input[type="search"] {
+  background: #2e2b33
+    url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat
+    9px center;
+  border: solid 1px#2E2B33;
+  width: 55px;
+  height: 115%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+input[type="search"]:focus {
+  width: 130px;
+  background-color: #2e2b33;
+  border-color: #2e2b33;
+  -webkit-box-shadow: 0 0 5px #2e2b33;
+  -moz-box-shadow: 0 0 5px #2e2b33;
+  box-shadow: 0 0 5px #2e2b33;
+}
+
+input:-moz-placeholder {
+  color: #999;
+}
+
+input::-webkit-input-placeholder {
+  color: #999;
+}
+
+#demo-2 input[type="search"] {
+  width: 15px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+
+input[type="search"]:hover {
+  background-color: #2e2b33;
+}
+
+input[type="search"]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #fff;
+  background-color: #2e2b33 0% 0% no-repeat padding-box;
+  cursor: auto;
+}
+
+input:-moz-placeholder {
+  color: transparent;
+}
+
+input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.logo-nav {
+  float: left;
+  padding-top: 8px;
+  padding-left: 60px;
+}
+
+/* INICIO */
+
+.intro img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* PROPÓSITO */
+
+.proposito {
+  width: 100%;
+  background-color: #1e1d20;
+  color: #fff;
+}
+
+.proposito h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.proposito h1:after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 3px;
+  background: #fff;
+  margin: 30px auto 0px auto;
+}
+
+.proposito h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.proposito p {
+  font-size: 26px;
+  font-weight: normal;
+  padding-bottom: 60px;
+}
+
+/* Small phones 0 até 480px */
+@media only screen and (max-width: 480px) {
+  .proposito h1 {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .proposito h1:after {
+    height: 2px;
+    margin: 10px auto 0px auto;
+  }
+
+  .proposito h2 {
+    margin-bottom: 20px;
+    font-size: 1.25em;
+  }
+
+  .proposito p {
+    font-size: 1em;
+    padding-bottom: 40px;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .proposito h1 {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .proposito h1:after {
+    height: 2px;
+    margin: 10px auto 0px auto;
+  }
+
+  .proposito h2 {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .proposito p {
+    font-size: 0.8em;
+    padding-bottom: 40px;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .proposito h1 {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .proposito h1:after {
+    height: 2px;
+    margin: 10px auto 0px auto;
+  }
+
+  .proposito h2 {
+    margin-bottom: 20px;
+    font-size: 1.25em;
+  }
+
+  .proposito p {
+    font-size: 1em;
+    padding-bottom: 40px;
+  }
+}
+
+/* Big tablet - 1024px até 1199px */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .proposito h1 {
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .proposito h1:after {
+    height: 2px;
+    margin: 10px auto 0px auto;
+  }
+
+  .proposito h2 {
+    margin-bottom: 20px;
+    font-size: 1.75em;
+  }
+
+  .proposito p {
+    font-size: 1.25em;
+    padding-bottom: 40px;
+  }
+}
+
+/* PESSOAS */
+
+.pessoas {
+  width: 100%;
+  color: #1e1d20;
+}
+
+.pessoas h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.pessoas p {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+/* Small phones 0 até 480px */
+@media (max-width: 480px) {
+  .pessoas h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+  }
+
+  .pessoas p {
+    font-size: 1em;
+    padding-bottom: 40px;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .pessoas h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .pessoas p {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .pessoas h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.25em;
+  }
+
+  .pessoas p {
+    font-size: 1em;
+    padding-bottom: 10px;
+  }
+}
+
+/* Big tablet - 1024px até 1199px */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .pessoas h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 1.75em;
+  }
+
+  .pessoas p {
+    font-size: 1.25em;
+    padding-bottom: 10px;
+  }
+}
+
+/* DESEMPENHO */
+
+.desempenho {
+  width: 100%;
+  background-color: #1e1d20;
+  color: #fff;
+}
+
+.desempenho h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.desempenho p {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+/* Small phones 0 até 480px */
+@media (max-width: 480px) {
+  .desempenho h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+  }
+
+  .desempenho p {
+    font-size: 1em;
+    padding-bottom: 40px;
+  }
+}
+
+/* Phones - Small tabletes 481 até 767px */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .desempenho h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .desempenho p {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+  }
+}
+
+/* Small tablete - big tablet 768px até 1023 */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .desempenho h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.25em;
+  }
+
+  .desempenho p {
+    font-size: 1em;
+    padding-bottom: 10px;
+  }
+}
+
+/* Big tablet - 1024px até 1199px */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .desempenho h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 1.75em;
+  }
+
+  .desempenho p {
+    font-size: 1.25em;
+    padding-bottom: 10px;
+  }
+}
+
+/* FOOTER */
